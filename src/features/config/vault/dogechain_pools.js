@@ -17,7 +17,7 @@ export const dogechainPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'Stellaswap',
+    platform: 'Yodeswap',
     assets: ['USDC', 'USDT'],
     risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratMultiLP',
