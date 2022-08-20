@@ -1,5 +1,3 @@
-
-
 export const dogechainPools = [
   {
     id: 'yodeswap-usdc-usdt',
@@ -105,32 +103,6 @@ export const dogechainPools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
   },
-  // {
-  //   id: 'yodeswap-yode-usdt',
-  //   name: 'Yodeswap YODE USDT',
-  //   token: 'YODE-USDT YLP',
-  //   tokenDescription: 'Yodeswap',
-  //   tokenAddress: '0x2a3D4c23cA19B0E6e6Ad516dc475f7Ef0040bbde',
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'bVAULT-YODE-USDT-yodeswap',
-  //   earnedTokenAddress: '0x62F96b64105f75F6e3635047fb5d5aab9734FC81',
-  //   earnContractAddress: '0x62F96b64105f75F6e3635047fb5d5aab9734FC81',
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'yodeswap-yode-usdt',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'YodeSwap',
-  //   assets: ['YODE', 'USDT'],
-  //   risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
-  //   stratType: 'StratMultiLP',
-  //   withdrawalFee: '0%',
-  //   addLiquidityUrl:
-  //     'https://yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
-  // },
   {
     id: 'yodeswap-yode-usdc',
     name: 'Yodeswap YODE USDC',
@@ -183,4 +155,4 @@ export const dogechainPools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
   },
-  ];
+];
