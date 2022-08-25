@@ -1,4 +1,136 @@
 export const dogechainPools = [
+  //  Dogmoney Pools
+  {
+    id: 'dogmoney-dogmoney-wwdoge',
+    name: 'Dogmoney DOGMONEY WDOGE',
+    token: 'DOGMONEY-WDOGE DLP',
+    tokenDescription: 'Dogmoney',
+    tokenAddress: '0x9Ab710Cd0BfbeE60E14115D19c76213C4D4b1687',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-DOGMONEY-WDOGE-Dogmoney',
+    earnedTokenAddress: '0x9a9701488e29039dc3052c257c0F5c6C3d1aaB41',
+    earnContractAddress: '0x9a9701488e29039dc3052c257c0F5c6C3d1aaB41',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'dogmoney-dogmoney-wwdoge',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Dogmoney',
+    assets: ['DOGMONEY', 'WWDOGE'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.dogmoney.money/add/0x93C8a00416dD8AB9701fa15CA120160172039851/doge',
+  },
+  {
+    id: 'dogmoney-usdc-wwdoge',
+    name: 'Dogmoney USDC WDOGE',
+    token: 'USDC-WDOGE DLP',
+    tokenDescription: 'Dogmoney',
+    tokenAddress: '0xd26745d973005bbdA64dB020B75B1720C4Ee7b23',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-USDC-WDOGE-Dogmoney',
+    earnedTokenAddress: '0x7A2DD27e81c1057dd845bd2f95Ee5BB2E52723a5',
+    earnContractAddress: '0x7A2DD27e81c1057dd845bd2f95Ee5BB2E52723a5',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'dogmoney-usdc-wwdoge',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Dogmoney',
+    assets: ['USDC', 'WWDOGE'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.dogmoney.money/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/doge',
+  },
+  {
+    id: 'dogmoney-dai-wwdoge',
+    name: 'Dogmoney DAI WDOGE',
+    token: 'DAI-WDOGE DLP',
+    tokenDescription: 'Dogmoney',
+    tokenAddress: '0xbD66c80177032252D44EF12142d8Db580595ffba',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-DAI-WDOGE-Dogmoney',
+    earnedTokenAddress: '0x237De3aDF61647927645D44498C4ad3D602cA4d7',
+    earnContractAddress: '0x237De3aDF61647927645D44498C4ad3D602cA4d7',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'dogmoney-dai-wwdoge',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Dogmoney',
+    assets: ['DAI', 'WWDOGE'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.dogmoney.money/add/0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C/doge',
+  },
+  {
+    id: 'dogmoney-usdc-dogmoney',
+    name: 'Dogmoney USDC DOGMONEY',
+    token: 'USDC-DOGMONEY DLP',
+    tokenDescription: 'Dogmoney',
+    tokenAddress: '0x90104885C69b980cB3C9D351671F0F06E016aB48',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-USDC-DOGMONEY-Dogmoney',
+    earnedTokenAddress: '0x8Ed814Ae274C65d5C7344a8C8b02b6CAcd0e8208',
+    earnContractAddress: '0x8Ed814Ae274C65d5C7344a8C8b02b6CAcd0e8208',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'dogmoney-usdc-dogmoney',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Dogmoney',
+    assets: ['USDC', 'DOGMONEY'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.dogmoney.money/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0x93C8a00416dD8AB9701fa15CA120160172039851',
+  },
+  {
+    id: 'dogmoney-dai-dogmoney',
+    name: 'Dogmoney DAI Dogmoney',
+    token: 'DAI-DOGMONEY DLP',
+    tokenDescription: 'Dogmoney',
+    tokenAddress: '0x988664dd22883F493184e509266fdC457367076E',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'aVAULT-DAI-DOGMONEY-Dogmoney',
+    earnedTokenAddress: '0xDB7a12366c7eccE1635426fB0AA3f7FF1c48b4aD', 
+    earnContractAddress: '0xDB7a12366c7eccE1635426fB0AA3f7FF1c48b4aD',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'dogmoney-dai-dogmoney',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Dogmoney',
+    assets: ['DAI', 'DOGMONEY'],
+    risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://app.dogmoney.money/add/0x93C8a00416dD8AB9701fa15CA120160172039851/0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C',
+  },
+  //  YodeSwap Pools
   {
     id: 'yodeswap-usdc-usdt',
     name: 'Yodeswap USDC USDT',
@@ -23,7 +155,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
+      'https://app.yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
   },
   {
     id: 'yodeswap-usdc-wbtc',
@@ -49,7 +181,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
+      'https://app.yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
   },
   {
     id: 'yodeswap-usdc-eth',
@@ -75,7 +207,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
+      'https://app.yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
   },
   {
     id: 'yodeswap-usdc-wwdoge',
@@ -101,7 +233,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+      'https://app.yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/wdoge',
   },
   // {
   //   id: 'yodeswap-yode-usdt',
@@ -153,7 +285,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0x765277EebeCA2e31912C9946eAe1021199B39C61',
+      'https://app.yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0x765277EebeCA2e31912C9946eAe1021199B39C61',
   },
   {
     id: 'yodeswap-yode-wwdoge',
@@ -179,7 +311,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+      'https://app.yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/wdoge',
   },
   {
     id: 'yodeswap-busd-bnb',
@@ -205,7 +337,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x332730a4F6E03D9C55829435f10360E13cfA41Ff/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
+      'https://app.yodeswap.dog/exchange/add/0x332730a4F6E03D9C55829435f10360E13cfA41Ff/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
   },
   {
     id: 'yodeswap-busd-usdc',
@@ -231,7 +363,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://yodeswap.dog/exchange/add/0x332730a4F6E03D9C55829435f10360E13cfA41Ff/0x765277EebeCA2e31912C9946eAe1021199B39C61',
+      'https://app.yodeswap.dog/exchange/add/0x332730a4F6E03D9C55829435f10360E13cfA41Ff/0x765277EebeCA2e31912C9946eAe1021199B39C61',
   },
   //  DAOGE is a transfertax token. Disregard vault
   // {
@@ -258,7 +390,7 @@ export const dogechainPools = [
   //   stratType: 'StratMultiLP',
   //   withdrawalFee: '0%',
   //   addLiquidityUrl:
-  //     'https://yodeswap.dog/exchange/add/0x7FD7fc6f3dE86b0aC42c76F555C8A55587630494/0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+  //     'https://yodeswap.dog/exchange/add/0x7FD7fc6f3dE86b0aC42c76F555C8A55587630494/wdoge',
   // },
   //  kibble swap pools
   //  KibbleSwap Pools  
@@ -286,7 +418,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://www.kibbleswap.dog/liquidity/pool?main=0x1e1026ba0810e6391b0f86afa8a9305c12713b66&base=0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101',
+      'https://www.kibbleswap.dog/liquidity/pool?main=0x1e1026ba0810e6391b0f86afa8a9305c12713b66&base=wdoge',
   },
   {
     id: 'kibbleswap-usdc-wwdoge',
@@ -312,7 +444,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://www.kibbleswap.dog/liquidity/pool?main=0x765277EebeCA2e31912C9946eAe1021199B39C61&base=0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+      'https://www.kibbleswap.dog/liquidity/pool?main=0x765277EebeCA2e31912C9946eAe1021199B39C61&base=wdoge',
   },
   {
     id: 'kibbleswap-eth-wwdoge',
@@ -338,7 +470,7 @@ export const dogechainPools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl:
-      'https://www.kibbleswap.dog/liquidity/pool?main=0xB44a9B6905aF7c801311e8F4E76932ee959c663C&base=0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+      'https://www.kibbleswap.dog/liquidity/pool?main=0xB44a9B6905aF7c801311e8F4E76932ee959c663C&base=wdoge',
   },
   {
     id: 'kibbleswap-kib-usdc',
