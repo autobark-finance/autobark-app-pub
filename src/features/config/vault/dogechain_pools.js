@@ -1,5 +1,4 @@
 export const dogechainPools = [
-  //  Dogmoney Pools
   {
     id: 'dogmoney-dogmoney-wwdoge',
     name: 'Dogmoney DOGMONEY WDOGE',
@@ -130,7 +129,6 @@ export const dogechainPools = [
     addLiquidityUrl:
       'https://app.dogmoney.money/add/0x93C8a00416dD8AB9701fa15CA120160172039851/0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C',
   },
-  //  YodeSwap Pools
   {
     id: 'yodeswap-usdc-usdt',
     name: 'Yodeswap USDC USDT',
@@ -235,32 +233,6 @@ export const dogechainPools = [
     addLiquidityUrl:
       'https://app.yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/wdoge',
   },
-  // {
-  //   id: 'yodeswap-yode-usdt',
-  //   name: 'Yodeswap YODE USDT',
-  //   token: 'YODE-USDT YLP',
-  //   tokenDescription: 'Yodeswap',
-  //   tokenAddress: '0x2a3D4c23cA19B0E6e6Ad516dc475f7Ef0040bbde',
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'aVault-YODE-USDT-yodeswap',
-  //   earnedTokenAddress: '0x62F96b64105f75F6e3635047fb5d5aab9734FC81',
-  //   earnContractAddress: '0x62F96b64105f75F6e3635047fb5d5aab9734FC81',
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'yodeswap-yode-usdt',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'YodeSwap',
-  //   assets: ['YODE', 'USDT'],
-  //   risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
-  //   stratType: 'StratMultiLP',
-  //   withdrawalFee: '0%',
-  //   addLiquidityUrl:
-  //     'https://yodeswap.dog/exchange/add/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
-  // },
   {
     id: 'yodeswap-yode-usdc',
     name: 'Yodeswap YODE USDC',
@@ -365,35 +337,6 @@ export const dogechainPools = [
     addLiquidityUrl:
       'https://app.yodeswap.dog/exchange/add/0x332730a4F6E03D9C55829435f10360E13cfA41Ff/0x765277EebeCA2e31912C9946eAe1021199B39C61',
   },
-  //  DAOGE is a transfertax token. Disregard vault
-  // {
-  //   id: 'yodeswap-daoge-wwdoge',
-  //   name: 'Yodeswap WDOGE DAOGE',
-  //   token: 'WDOGE-DAOGE YLP',
-  //   tokenDescription: 'Yodeswap',
-  //   tokenAddress: '0xAE89D749a1EDE455510c86E781B5F6E99A186F1F',
-  //   tokenDecimals: 18,
-  //   tokenDescriptionUrl: '#',
-  //   earnedToken: 'aVAULT-WDOGE-DAOGE-YodeSwap',
-  //   earnedTokenAddress: '0xD70434728aC1152288F8a6c4AB90d9dCEA275967',
-  //   earnContractAddress: '0xD70434728aC1152288F8a6c4AB90d9dCEA275967',
-  //   pricePerFullShare: 1,
-  //   tvl: 0,
-  //   oracle: 'lps',
-  //   oracleId: 'yodeswap-daoge-wwdoge',
-  //   oraclePrice: 0,
-  //   depositsPaused: false,
-  //   status: 'active',
-  //   platform: 'YodeSwap',
-  //   assets: ['WDOGE', 'DAOGE'],
-  //   risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_LARGE', 'AUDIT', 'CONTRACTS_VERIFIED'],
-  //   stratType: 'StratMultiLP',
-  //   withdrawalFee: '0%',
-  //   addLiquidityUrl:
-  //     'https://yodeswap.dog/exchange/add/0x7FD7fc6f3dE86b0aC42c76F555C8A55587630494/wdoge',
-  // },
-  //  kibble swap pools
-  //  KibbleSwap Pools  
   {
     id: 'kibbleswap-kib-wwdoge',
     name: 'KibbleSwap KIB WWDOGE',
